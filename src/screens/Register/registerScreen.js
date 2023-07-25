@@ -9,18 +9,17 @@ const height = Dimensions.get("window").height
 const LoginCaregiver = ({navigation})=>{
     return(
         <View style={styles.container}>
-            <NavbarComponent/>
             <View style={styles.suContainer}>
                 <Text style={{fontFamily: "Poppins-SemiBold", color: "#fff", fontSize: 33, textAlign: "center"}}>Create new <Text>account</Text></Text>
-                <Text style={{fontFamily: "Poppins-Light", fontSize: 12, textAlign: "center", marginTop: - 15, marginBottom: 30, color: "#FFF"}}>Already have an account? <Text style={{fontFamily: "Poppins-Bold"}}>Log in</Text></Text>
+                <Text style={{fontFamily: "Poppins-Light", fontSize: 12, textAlign: "center", marginTop: - 15, marginBottom: 30, color: "#FFF"}}>Already registered? <Text style={{fontFamily: "Poppins-Bold"}} onPress={()=> navigation.navigate("login")}>Log in here</Text></Text>
 
-                <TouchableOpacity style={styles.signinButton}>
+                <TouchableOpacity style={styles.signinButton} onPress={()=> navigation.navigate("registerhospital")}>
                     <Text style={styles.formLabel}>As CareHome / Hospital</Text>
                 </TouchableOpacity>
 
                 <Text style={{color: "#FFF", fontFamily: "Poppins-Bold", textAlign: "center", margin: 5}}>Or</Text>
 
-                <TouchableOpacity style={styles.signinButton}>
+                <TouchableOpacity style={styles.signinButton} onPress={()=> navigation.navigate("registercaregiver")}>
                     <Text style={styles.formLabel}>As CareGiver</Text>
                 </TouchableOpacity>
             </View>

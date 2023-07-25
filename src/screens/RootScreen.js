@@ -14,6 +14,8 @@ import CustomHeaderTitle from '../components/CustomHeaderTitle';
 import LoginCaregiver from './Login/CareGiverLogin';
 import LoginHospital from './Login/HospitalLogin';
 import LoginScreen from './Login/Login';
+import NavbarComponent from '../components/navbar';
+import CareGiverRoot from './CareGiver/RootCareGiver';
 const Stack = createStackNavigator();
 function App() {
   return (
@@ -21,27 +23,74 @@ function App() {
       <Stack.Navigator initialRouteName="splash">
         <Stack.Screen name="splash" component={SplashScreen} options={{headerShown: false}}/>
         <Stack.Screen name="home" component={HomeScreen} options={{headerShown: false}}/>
-        <Stack.Screen name="register" component={RegisterScreen} options={{headerShown: false}}/>
-        <Stack.Screen name="login" component={LoginScreen} options={{headerShown: false}}/>
-        <Stack.Screen name="registercaregiver" component={RegisterCareGiver}  
-          options={{headerShown: false}}
+        <Stack.Screen name="register" component={RegisterScreen}
+          options={({ navigation }) => ({
+            headerLeft: () => (
+              <></>
+            ),
+            headerTitle: (props) => (
+              < NavbarComponent/>
+            )
+          })}
         />
+        <Stack.Screen name="login" component={LoginScreen} 
+        options={({ navigation }) => ({
+          headerLeft: () => (
+            <></>
+          ),
+          headerTitle: (props) => (
+            < NavbarComponent/>
+          )
+        })}
+        />
+        <Stack.Screen name="registercaregiver" component={RegisterCareGiver}  options={({ navigation }) => ({
+  headerLeft: () => (
+    <></>
+  ),
+  headerTitle: (props) => (
+    < NavbarComponent/>
+  )
+})}
+ />
+        <Stack.Screen name="registerhospital" component={RegisterHospital} 
+        options={({ navigation }) => ({
+          headerLeft: () => (
+            <></>
+          ),
+          headerTitle: (props) => (
+            < NavbarComponent/>
+          )
+        })}
+      />
 
-        <Stack.Screen name="registerhospital" component={RegisterHospital}
-        options={{headerShown: false}}
-        />
+      <Stack.Screen 
+        name="logincaregiver" 
+        component={LoginCaregiver}  
+        options={({ navigation }) => ({
+          headerLeft: () => (
+            <></>
+          ),
+          headerTitle: (props) => (
+            < NavbarComponent/>
+          )
+        })}
+      />
 
-        <Stack.Screen 
-          name="logincaregiver" 
-          component={LoginCaregiver}  
-          options={{headerShown: false}}
-        />
+      <Stack.Screen
+        name="loginhospital" 
+        component={LoginHospital}
+        options={({ navigation }) => ({
+          headerLeft: () => (
+            <></>
+          ),
+          headerTitle: (props) => (
+            < NavbarComponent/>
+          )
+        })}
+      />
 
-        <Stack.Screen
-          name="loginhospital" 
-          component={LoginHospital}
-          options={{headerShown: false}}
-        />
+      <Stack.Screen name='caregiverhome' component={CareGiverRoot} options={{headerShown: false}}/>
+      {/* <Stack.Screen name='hospitalhome' component={CareGiverRoot}/> */}
 
       </Stack.Navigator>
     </NavigationContainer>

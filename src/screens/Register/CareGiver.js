@@ -11,11 +11,11 @@ const LoginCaregiver = ({navigation})=>{
     return(
         <ScrollView>
             <View style={styles.container}>
-                <NavbarComponent/>
+                {/* <NavbarComponent/> */}
                     <View style={styles.suContainer}>
 
                         <Text style={{fontFamily: "Poppins-SemiBold", color: "#fff", fontSize: 49, textAlign: "center"}}>REGISTER</Text>
-                        <Text style={{fontFamily: "Poppins-Light", fontSize: 12, textAlign: "center", marginTop: - 15, marginBottom: 30, color: "#FFF"}}>As Hospital/ CareHome</Text>
+                        <Text style={{fontFamily: "Poppins-Light", fontSize: 12, textAlign: "center", marginTop: - 15, marginBottom: 30, color: "#FFF"}}>As CareGiver</Text>
 
                         <View style={styles.formGroup}>
                             <Text style={styles.formLabel}>NAME</Text>
@@ -43,7 +43,7 @@ const LoginCaregiver = ({navigation})=>{
                             <Text style={{fontFamily: "Poppins-Bold", color: "#FFF"}}>Register</Text>
                         </TouchableOpacity>
 
-                        <Text style={styles.textStyes} onPress={()=> navigation.navigate("register")}>Signup !</Text>
+                        <Text style={styles.textStyes} onPress={()=> navigation.navigate("login")}>Signin !</Text>
 
                     </View>
         </View>

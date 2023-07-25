@@ -11,7 +11,6 @@ const LoginCaregiver = ({navigation})=>{
     return(
         <ScrollView>
             <View style={styles.container}>
-                <NavbarComponent/>
                     <View style={styles.suContainer}>
 
                         <Text style={{fontFamily: "Poppins-SemiBold", color: "#fff", fontSize: 49, textAlign: "center"}}>REGISTER</Text>
@@ -40,10 +39,10 @@ const LoginCaregiver = ({navigation})=>{
 
                         
                         <TouchableOpacity style={styles.signinButton}>
-                            <Text style={{fontFamily: "Poppins-Bold", color: "#FFF"}}>Log in</Text>
+                            <Text style={{fontFamily: "Poppins-Bold", color: "#FFF"}}>Register</Text>
                         </TouchableOpacity>
 
-                        <Text style={styles.textStyes} onPress={()=> navigation.navigate("register")}>Signup !</Text>
+                        <Text style={styles.textStyes} onPress={()=> navigation.navigate("login")}>Signin !</Text>
 
                     </View>
         </View>

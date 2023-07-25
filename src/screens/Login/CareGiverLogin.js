@@ -9,7 +9,6 @@ const height = Dimensions.get("window").height
 const LoginCaregiver = ({navigation})=>{
     return(
         <View style={styles.container}>
-            <NavbarComponent/>
             <View style={styles.suContainer}>
                 <Text style={{fontFamily: "Poppins-SemiBold", color: "#fff", fontSize: 49, textAlign: "center"}}>Login</Text>
                 <Text style={{fontFamily: "Poppins-Light", fontSize: 12, textAlign: "center", marginTop: - 15, marginBottom: 30, color: "#FFF"}}>Sign in as Caregiver</Text>
@@ -22,10 +21,10 @@ const LoginCaregiver = ({navigation})=>{
                 
                 <View style={[styles.formGroup, {marginTop: 10}]}>
                     <Text style={styles.formLabel}>PASSWORD</Text>
-                    <TextInput placeholder="Your password" placeholderTextColor={"#FFF"} style={styles.textInput}/>
+                    <TextInput placeholder="Your password" placeholderTextColor={"#FFF"} secureTextEntry style={styles.textInput}/>
                 </View>
 
-                <TouchableOpacity style={styles.signinButton}>
+                <TouchableOpacity style={styles.signinButton} onPress={()=> navigation.navigate("caregiverhome")}>
                     <Text style={{fontFamily: "Poppins-Bold", color: "#FFF"}}>Log in</Text>
                 </TouchableOpacity>
 
@@ -48,11 +47,11 @@ const styles = StyleSheet.create({
     }, 
     suContainer: {
         width: width,
-        height: height - 100,
+        height: height - 70,
         backgroundColor: "#de3aad",
         display: "flex",
         position: "absolute",
-        top: 90,
+        top: 60,
         right: -20,
         borderTopLeftRadius: 90,
         borderWidth: 10,

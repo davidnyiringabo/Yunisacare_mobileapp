@@ -13,7 +13,7 @@ const NavbarComponent = ()=>{
     return(
         <View style={styles.navbarContainer}>
             <TouchableOpacity onPress={()=> setShowMenu(!showMenu)}>
-                <Image source={menuImage} style={{width: 22, height: 22, margin: 14}}/>
+                <Image source={menuImage} style={{width: 22, height: 22}}/>
             </TouchableOpacity>
 
             {
@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     navBarMenu:{
         position: "absolute",
         top: 46,
+        left: - 20,
         width: width -100,
         height: height - 70,
         backgroundColor: "#ccc",

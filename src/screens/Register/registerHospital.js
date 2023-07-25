@@ -1,30 +1,51 @@
 import { Dimensions, Image, StyleSheet, Text, TextInput, TouchableOpacity } from "react-native"
 import { View } from "react-native"
 import logo from "../../assets/images/logo.png"
+import NavbarComponent from "../../components/navbar"
 import { ScrollView } from "react-native"
+
 const width = Dimensions.get("window").width
 const height = Dimensions.get("window").height
 
-const RegisterHospital = ({navigation})=>{
+const LoginCaregiver = ({navigation})=>{
     return(
         <ScrollView>
-        <View style={styles.container}>
-            <Image source={logo} style={{width: 100, height: 100}}/>
+            <View style={styles.container}>
+                <NavbarComponent/>
+                    <View style={styles.suContainer}>
 
-            <Text style={{fontFamily: "Poppins-Bold", fontSize: 26}}>Create an Account</Text>
-            <Text style={{fontSize: 10, fontFamily: "Poppins-Light", marginBottom: 20,marginTop: -10}}>Please fill this detail to create an account</Text>
+                        <Text style={{fontFamily: "Poppins-SemiBold", color: "#fff", fontSize: 49, textAlign: "center"}}>REGISTER</Text>
+                        <Text style={{fontFamily: "Poppins-Light", fontSize: 12, textAlign: "center", marginTop: - 15, marginBottom: 30, color: "#FFF"}}>As Hospital/ CareHome</Text>
 
-            <TextInput placeholder="Hospital name" style={styles.textInput}/>
-            <TextInput placeholder="Hospital email" style={styles.textInput}/>
-            <TextInput placeholder="Hospital Location" style={styles.textInput}/>
-            <TextInput placeholder="Hospital password" secureTextEntry={true} style={styles.textInput}/>
+                        <View style={styles.formGroup}>
+                            <Text style={styles.formLabel}>NAME</Text>
+                            <TextInput placeholder="Ex. Dave Laghi" placeholderTextColor="#FFF" caretColor="#FFF" style={styles.textInput}/>
+                        </View>
 
-            <TouchableOpacity style={styles.signinButton}>
-                <Text style={{color: "#fff", fontFamily: "Poppins-Bold"}}>Sign in</Text>
-            </TouchableOpacity>
+                        
+                        <View style={styles.formGroup}>
+                            <Text style={styles.formLabel}>EMAIL</Text>
+                            <TextInput placeholder="Ex. Muhime hospital" placeholderTextColor="#FFF" caretColor="#FFF" style={styles.textInput}/>
+                        </View>
 
+                        <View style={styles.formGroup}>
+                            <Text style={styles.formLabel}>PASSWORD</Text>
+                            <TextInput placeholder="Password" placeholderTextColor="#FFF" caretColor="#FFF" style={styles.textInput} secureTextEntry/>
+                        </View>
 
-            <Text style={{marginTop: 30, fontFamily: "Poppins-Regular"}}>Already have an account ? <Text style={{color: "#1a85d6"}} onPress={()=> navigation.navigate("login")}>Login</Text></Text>
+                        <View style={styles.formGroup}>
+                            <Text style={styles.formLabel}>ADRESS</Text>
+                            <TextInput placeholder="Ex. Califonia" placeholderTextColor="#FFF" caretColor="#FFF" style={styles.textInput}/>
+                        </View>
+
+                        
+                        <TouchableOpacity style={styles.signinButton}>
+                            <Text style={{fontFamily: "Poppins-Bold", color: "#FFF"}}>Log in</Text>
+                        </TouchableOpacity>
+
+                        <Text style={styles.textStyes} onPress={()=> navigation.navigate("register")}>Signup !</Text>
+
+                    </View>
         </View>
         </ScrollView>
     )
@@ -32,33 +53,65 @@ const RegisterHospital = ({navigation})=>{
 
 const styles = StyleSheet.create({
     container:{
-        flex: 1,
-        alignItems: "center",
         width: width,
-        height: height,
-        backgroundColor: "#fff"
+        height: height + 86,
+        backgroundColor: "#fff",
+        position: "relative"
+    }, 
+    suContainer: {
+        width: width,
+        height: height + 70,
+        backgroundColor: "#de3aad",
+        display: "flex",
+        position: "absolute",
+        top: 90,
+        right: -20,
+        borderTopLeftRadius: 90,
+        borderWidth: 10,
+        borderColor: "#ccc",
+        padding: 30
+        // alignItems: "center"
     },
     textInput:{
-        width: width - 50,
+        width: width - 100,
         height: 50,
         borderWidth: 0.4,
-        borderColor: "#1a85d6",
+        borderColor: "#f59dda",
         margin: 9,
         paddingLeft: 20,
         fontFamily: "Poppins-Regular",
-        borderRadius: 5,
-        color: "#000"
+        borderRadius: 10,
+        color: "#FFF",
+        backgroundColor: "#f59dda"
     },
     signinButton:{
-        width: width - 50,
+        width: width - 100,
         height: 50,
-        backgroundColor: "#1a85d6",
+        backgroundColor: "#000",
         margin: 20,
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        borderRadius: 5
+        borderRadius: 5,
+        alignSelf: "center"
+    },
+    formGroup:{
+        display: "flex",
+        flexDirection: "column"
+    },
+    formLabel: {
+        marginLeft: 7,
+        fontSize: 11,
+        color: "#FFF",
+        fontFamily: "Poppins-Light",
+        fontWeight: "700"
+    },
+    textStyes:{
+        fontFamily: "Poppins-Light",
+        color: "#FFF",
+        fontSize: 10,
+        textAlign: "center"
     }
 })
 
-export default RegisterHospital
+export default LoginCaregiver

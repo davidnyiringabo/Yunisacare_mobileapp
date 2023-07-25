@@ -1,0 +1,441 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/AdventPro-Black.ttf",
+      "sha1": "1a9ea62e924568ca6da02325f250b434c90ee568"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-BlackItalic.ttf",
+      "sha1": "00e02c730a8ec9dc371bcee4df5c71dcafe01c1d"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-Bold.ttf",
+      "sha1": "75371629031966cd9b8d0881dee32b82ae5d8d54"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-BoldItalic.ttf",
+      "sha1": "0b81f13862926d447984eb3f9847c69c83d31bb3"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-ExtraBold.ttf",
+      "sha1": "543d77a9ecd1d8200a6792420b25cf891cb7cf88"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-ExtraBoldItalic.ttf",
+      "sha1": "e4c16317acb75a4cfbc9d591ad4176f36bd67be2"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-ExtraLight.ttf",
+      "sha1": "f54b36ca311564f51ef9ac9e2d0d97b03dbfbd22"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-ExtraLightItalic.ttf",
+      "sha1": "b33300e7d65abf74e3ca83e50062fed328cdc87f"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-Italic.ttf",
+      "sha1": "2e73d0d4695bd049538f9f025c3946a736217d20"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-Light.ttf",
+      "sha1": "e9e0733e094371b076dbe56c73b014dd61bfd57a"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-LightItalic.ttf",
+      "sha1": "762a70165769e0592a0235553492c77f1a7b22c1"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-Medium.ttf",
+      "sha1": "ac05b224c2a01d34bbc3017544aeb4107133293d"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-MediumItalic.ttf",
+      "sha1": "ca15b882dac23e452e003661cb8788cfbe404143"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-Regular.ttf",
+      "sha1": "49d916ea51923b58004dd481c17866ea5d2abe08"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-SemiBold.ttf",
+      "sha1": "e27cf6d280eb931927abfadb9c2a9c7bf2def02b"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-SemiBoldItalic.ttf",
+      "sha1": "5c7f5ee65621eb1e8b401065be61876bfbb9a68d"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-Thin.ttf",
+      "sha1": "1221ced667ea6c40aa590084fda4c034887d0d32"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro-ThinItalic.ttf",
+      "sha1": "468a407d81dd207c0a59556200dfa3328c1f1fff"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-Black.ttf",
+      "sha1": "ac7a933be18e08e504c9b43a651eed379138fb1c"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-BlackItalic.ttf",
+      "sha1": "38b66297d50a8970e59597a2aa421dcce6bf7fb1"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-Bold.ttf",
+      "sha1": "f962ad44685545d11898722df310d20431e6b8eb"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-BoldItalic.ttf",
+      "sha1": "0574a4c0032694df52a4e71380856ddcf8f95bbe"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-ExtraBold.ttf",
+      "sha1": "2dae08795d71093d96b6ee817aac4fb9d170a4a7"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-ExtraBoldItalic.ttf",
+      "sha1": "97130bdbee05eb79d3b3d64551b5a32f820e5220"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-ExtraLight.ttf",
+      "sha1": "af0e1f0447e6f51e5ccf0133da96df51c8873bdb"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-ExtraLightItalic.ttf",
+      "sha1": "be301df304dd0a553efbd1cec3deb4148a598a0c"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-Italic.ttf",
+      "sha1": "b65a99330138f9022da7b331c7db7c059aab27ce"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-Light.ttf",
+      "sha1": "b0998ac5993e97d5bb6c6930d4c2d8333dd3914a"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-LightItalic.ttf",
+      "sha1": "5b77f2c926f9f765d6102e8659306daf96d31edb"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-Medium.ttf",
+      "sha1": "e3500dd11b21ff98f6cf908774a793fb925322a5"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-MediumItalic.ttf",
+      "sha1": "b46093e9f4d18fe8f966ef64a942cc8838b537f4"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-Regular.ttf",
+      "sha1": "b52d8b9c3aaff907ed9be246993ae60b2f717367"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-SemiBold.ttf",
+      "sha1": "f25541cd9345a56f641f1d49b255fbce1e7b2c90"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-SemiBoldItalic.ttf",
+      "sha1": "f4d4604a38919a4fffdc4fc1cce471f7dc05f9d9"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-Thin.ttf",
+      "sha1": "27208fca6564fe172e96117066b86a85185515ac"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_Expanded-ThinItalic.ttf",
+      "sha1": "d3048a2cd27481e92d649b0562243aab80a14e6f"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-Black.ttf",
+      "sha1": "ad8b1ef0ecc9fe275fee2f68a75efe30308d7c07"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-BlackItalic.ttf",
+      "sha1": "5971d0844a0186d87ea2295bb3186ae102b3410e"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-Bold.ttf",
+      "sha1": "4300710d598141a49479a3f3570debb5f0b6282f"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-BoldItalic.ttf",
+      "sha1": "3cdb1a826dd58f6753be92d064e4e11f6839e3dd"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-ExtraBold.ttf",
+      "sha1": "b5b14d9c3698b9a001d939d00f6c4e146c91abd5"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-ExtraBoldItalic.ttf",
+      "sha1": "e6bba6f80c4b87412661cbc8ed223bdf5ebb76d9"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-ExtraLight.ttf",
+      "sha1": "9121159b39818e6a701e0c68fe6607612e8aab56"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-ExtraLightItalic.ttf",
+      "sha1": "e563f9cdca1f51275e16fdf7d2ea2233bad5797d"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-Italic.ttf",
+      "sha1": "3d695711f48e89efc5a23a3ab1c0c54b4e8b138a"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-Light.ttf",
+      "sha1": "8c72a5249bd61287e52803521a2232fc566ff41c"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-LightItalic.ttf",
+      "sha1": "8b6587435a83d6ab3a6e8bac49fb7ec12b517b5e"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-Medium.ttf",
+      "sha1": "018e0b62cb593a57ad70518d4a811670c4718f42"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-MediumItalic.ttf",
+      "sha1": "727d0c7f4b2f8278325590ce79fc0e935be5af1c"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-Regular.ttf",
+      "sha1": "130baa36bb22ea2d99d162115444c1b171e0114d"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-SemiBold.ttf",
+      "sha1": "407a5e9121f607586fd971ab41f74d8a806ba5d8"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-SemiBoldItalic.ttf",
+      "sha1": "01df200e164a799220182ae398942ffac34dabb6"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-Thin.ttf",
+      "sha1": "4f28672e5a27c54f17def6cc831dd6c4093a19cf"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_ExtraExpanded-ThinItalic.ttf",
+      "sha1": "9ea21fb7fba4639e211acb6e2f1a2f3eb4cd8623"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-Black.ttf",
+      "sha1": "a3e89c609c07a3a7d0aae8482dfeea897e04d495"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-BlackItalic.ttf",
+      "sha1": "e696aedead2a798495313fa83ff6141c54d252ec"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-Bold.ttf",
+      "sha1": "4c1ccf7d1bc775aceb8a5ab2a2145e3fabff152a"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-BoldItalic.ttf",
+      "sha1": "32e26a2f74db186359fb678365bfef9d9bf78066"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-ExtraBold.ttf",
+      "sha1": "6eaebebb6b3598ec6ebfe84e57ae1e97ed197508"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-ExtraBoldItalic.ttf",
+      "sha1": "5b4b52d1a1b28ea36f0b0e3cd5ab82ccab2e7f95"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-ExtraLight.ttf",
+      "sha1": "31ccc700145ac7feb09019c5cbcc75bbaa3f81fe"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-ExtraLightItalic.ttf",
+      "sha1": "6a8006482a5d25238c8fb14ff2576c1da6e2e46c"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-Italic.ttf",
+      "sha1": "6a853c35ac04080f2eafc8f30a704a2c27a9fa77"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-Light.ttf",
+      "sha1": "a64aaabb13553bd01330ff64d77601a3d33e63ff"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-LightItalic.ttf",
+      "sha1": "c6687a14f61f2a364c59088d30db9d00f18dbff9"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-Medium.ttf",
+      "sha1": "94c839d8681621a36725ee1867ec429149436bd6"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-MediumItalic.ttf",
+      "sha1": "171c9323241e969543a13aa372c367be1c0f54a4"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-Regular.ttf",
+      "sha1": "1ee3c1709dffe28718c4a21fc6fedb24887e4b0b"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-SemiBold.ttf",
+      "sha1": "4055b4e8cc3f8155e376931f17714bee76f269fe"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-SemiBoldItalic.ttf",
+      "sha1": "93fb96cb885a82c6a335e11450ca0cfc896ced79"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-Thin.ttf",
+      "sha1": "6d20f81e9ea756f69d468ee2c4ee93742a456bbd"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_SemiExpanded-ThinItalic.ttf",
+      "sha1": "0811d574a779434e683a99ea8b88912804143d21"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-Black.ttf",
+      "sha1": "f580d085e38ab0c5ae31f38e230852376b351a37"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-BlackItalic.ttf",
+      "sha1": "cf1a6d5a5a8c73539d4b1085f9ff595c22bac519"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-Bold.ttf",
+      "sha1": "2a80c5dd11fb7c0e0a2e98f4872824299e7d615d"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-BoldItalic.ttf",
+      "sha1": "62c92a6cddf7c74a420bb5312ac9a1cebd6ea35a"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-ExtraBold.ttf",
+      "sha1": "d80658813cb2a4ad2b978276cc1a12640abfeeeb"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-ExtraBoldItalic.ttf",
+      "sha1": "a4625ecf3c21698e8e7d919ca25c46b0848adc99"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-ExtraLight.ttf",
+      "sha1": "4c0053f0fca577a204ff77a514c86b04fab86185"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-ExtraLightItalic.ttf",
+      "sha1": "0b9650efd8590c33af23270e5a37bbd272f9b234"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-Italic.ttf",
+      "sha1": "7aa13cacb9611e7df6fb4f66e931410f2ecad36f"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-Light.ttf",
+      "sha1": "d9c88c41c09e90e08ab59f3259d6b7ae1c1bb024"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-LightItalic.ttf",
+      "sha1": "7e6e8f5c0505a8335cc9d4bae666939187296b6a"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-Medium.ttf",
+      "sha1": "b50efa5c7a7f4c24e040e6aa974ee645dfcba831"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-MediumItalic.ttf",
+      "sha1": "57c570c344898fb9fadc1c665976466e54579f3a"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-Regular.ttf",
+      "sha1": "989650ff280e44a032f590dd0b1ad76b429ec373"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-SemiBold.ttf",
+      "sha1": "94541d66b48d25f3436c3474645d9b4f8a095597"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-SemiBoldItalic.ttf",
+      "sha1": "0b7653c278a0e4867cb0d527204c1466075c9476"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-Thin.ttf",
+      "sha1": "60c913c3593c34b76cf3c4f96466dd01377d4b30"
+    },
+    {
+      "path": "src/assets/fonts/AdventPro_UltraExpanded-ThinItalic.ttf",
+      "sha1": "297ad127c05f5bbc20e5e138b2301bff2fb524a6"
+    },
+    {
+      "path": "src/assets/fonts/OFL.txt",
+      "sha1": "8d6c34b70e3d638c82d7b5aba3f847f7d6d2c831"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Black.ttf",
+      "sha1": "645e04c53c6b5b35bce654a811ebce16af8aa721"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-BlackItalic.ttf",
+      "sha1": "be4ef2aac7775a4b0179c0ecfce6cea8f7783f63"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-BoldItalic.ttf",
+      "sha1": "6de8952ca08d27ee77f57347d2cef4b4e26aa78f"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "4b5c0750f073abd576413a0898d3b95adaf199c8"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBoldItalic.ttf",
+      "sha1": "94d3ee3acdbd00e37a715a25f2b5237666b5b8a3"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLight.ttf",
+      "sha1": "85af6582a7e6155917c605f9d3fed68c02b23b06"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLightItalic.ttf",
+      "sha1": "6fa0418f91032680d2d8fe4843009f2c80faa61d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Italic.ttf",
+      "sha1": "e2bfcd56016c3c915221ef1c5fc1a17b0776eb91"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Light.ttf",
+      "sha1": "e247a92158e112f8bf7b638c8d95381d66b00dbb"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-LightItalic.ttf",
+      "sha1": "f76102b361e705751a83b7b22fe954daf1f27dd4"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-MediumItalic.ttf",
+      "sha1": "b592c62fdf88c40cfd0f031bba6423b1d4430472"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBoldItalic.ttf",
+      "sha1": "0c8bed0a5942b2388d36b11c115685d9f01700b0"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Thin.ttf",
+      "sha1": "09ba4dcd5509c8085bf88c665dcc51cbdfced27b"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ThinItalic.ttf",
+      "sha1": "fb8fccca21550e71135f92bbaf8a2e8a12c90465"
+    }
+  ]
+}

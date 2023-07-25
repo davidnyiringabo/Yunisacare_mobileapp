@@ -1,11 +1,19 @@
 import react from "react"
-import { View, Text } from "react-native"
+import { View, Text, StyleSheet } from "react-native"
 
 const HomeScreen = ()=>{
     return(
-        <View>
-            <Text>Yunisa care app</Text>
+        <View style={styles.container}>
+            <Text style={{fontFamily: "Poppins-Bold"}}>Yunisa care app</Text>
             <Text>Learn the beauty of tech.</Text>
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        fontFamily: "Poppins-Black"
+    }
+})
+
+export default HomeScreen

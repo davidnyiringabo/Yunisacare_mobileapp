@@ -16,6 +16,7 @@ import LoginHospital from './Login/HospitalLogin';
 import LoginScreen from './Login/Login';
 import NavbarComponent from '../components/navbar';
 import CareGiverRoot from './CareGiver/RootCareGiver';
+import HospitalRoot from './Hospital/HospitalRoot';
 const Stack = createStackNavigator();
 function App() {
   return (
@@ -90,7 +91,7 @@ function App() {
       />
 
       <Stack.Screen name='caregiverhome' component={CareGiverRoot} options={{headerShown: false}}/>
-      {/* <Stack.Screen name='hospitalhome' component={CareGiverRoot}/> */}
+      <Stack.Screen name='hospitalhome' component={HospitalRoot} options={{headerShown: false}}/>
 
       </Stack.Navigator>
     </NavigationContainer>

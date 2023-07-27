@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "895246560924",
+    "project_id": "yunisa-8cb04",
+    "storage_bucket": "yunisa-8cb04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895246560924:android:15507b9af240a12c64c759",
+        "android_client_info": {
+          "package_name": "com.yunisacare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895246560924-gu5n1rettrffgc7df035stmbk9ns72u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfFIYe3fLfUXD_0gsPMg-u07PopCizQ0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895246560924-gu5n1rettrffgc7df035stmbk9ns72u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

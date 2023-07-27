@@ -24,7 +24,7 @@ const LoginCaregiver = ({navigation})=>{
                     <TextInput placeholder="Your password" placeholderTextColor={"#FFF"} secureTextEntry style={styles.textInput}/>
                 </View>
 
-                <TouchableOpacity style={styles.signinButton}>
+                <TouchableOpacity style={styles.signinButton} onPress={()=> navigation.navigate("hospitalhome")}>
                     <Text style={{fontFamily: "Poppins-Bold", color: "#FFF"}}>Log in</Text>
                 </TouchableOpacity>
 

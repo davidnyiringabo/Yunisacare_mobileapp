@@ -15,16 +15,16 @@ const Post = ()=>{
 
             <View style={styles.formGroup}>
                     <Text style={styles.formLabel}>NAME</Text>
-                    <TextInput placeholder="Ex. Dave Laghi" placeholderTextColor="#FFF" caretColor="#FFF" style={styles.textInput}/>
+                    <TextInput placeholder="Ex. Dave Laghi" placeholderTextColor="#FFF" style={styles.textInput}/>
             </View>
             <View style={styles.formGroup}>
                     <Text style={styles.formLabel}>ADDRESS</Text>
-                    <TextInput placeholder="Ex. Califonia" placeholderTextColor="#FFF" caretColor="#FFF" style={styles.textInput}/>
+                    <TextInput placeholder="Ex. Califonia" placeholderTextColor="#FFF" style={styles.textInput}/>
             </View>
 
             <View style={styles.formGroup}>
                 <Text style={styles.formLabel}>NAME</Text>
-                <TextInput placeholder="Date" placeholderTextColor="#FFF" caretColor="#FFF" style={styles.textInput}/>
+                <TextInput placeholder="Date" placeholderTextColor="#FFF" style={styles.textInput}/>
             </View>
 
             <View style={styles.formGroup}>
@@ -58,8 +58,9 @@ const Post = ()=>{
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        justifyContent: "center",
-        paddingTop: 20
+        justifyContent: "left",
+        paddingTop: 20,
+        paddingLeft: 30
     },
     textInput:{
         width: width - 100,

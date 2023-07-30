@@ -14,9 +14,6 @@ const Profile = ()=>{
                     <Text style={styles.text}>Edit My Profile</Text>
                 </TouchableOpacity>
                 <TouchableOpacity>
-                    <Text style={styles.text}>Upload Documents</Text>
-                </TouchableOpacity>
-                <TouchableOpacity>
                     <Text style={styles.text}>Payment</Text>
                 </TouchableOpacity>
             </View>

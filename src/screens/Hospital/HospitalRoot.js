@@ -18,10 +18,10 @@ const HospitalRoot = ()=>{
                     let title;
 
                     if(route.name === 'Post'){
-                        iconName = 'file';
+                        iconName = 'music';
                         title = "Post";
                     }else if(route.name === "Profile"){
-                        iconName = 'person';
+                        iconName = 'user';
                         title = "Profile"
                     }else if(route.name === "Browse") {
                         iconName = "search";
@@ -48,7 +48,7 @@ const HospitalRoot = ()=>{
             <Tabs.Screen name="Post" component={Post} 
                 options={({ navigation }) => ({
                     header: ()=>(
-                        < CustomHeader title="Post"/>
+                        < CustomHeader title="Post as Hospital"/>
                     )
                 })}
             />
@@ -61,7 +61,7 @@ const HospitalRoot = ()=>{
             <Tabs.Screen name="Profile" component={Profile}
                 options={({ navigation }) => ({
                     header: ()=>(
-                        < CustomHeader title="Profile"/>
+                        < CustomHeader title="Hospital Profile"/>
                     )
                 })}
             />

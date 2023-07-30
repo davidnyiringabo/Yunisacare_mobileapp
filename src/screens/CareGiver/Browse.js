@@ -12,7 +12,7 @@ const Browse = ()=>{
     return(
         <View style={styles.dashboardContainer}>
             <View style={styles.shiftsContainer}>
-                <Text style={{fontFamily: "Poppins-Bold", textAlign: "left", width: "90%", fontSize: 17}}>Browse shifts</Text>
+                <Text style={{fontFamily: "Poppins-SemiBold", textAlign: "left", width: "90%", fontSize: 17, color: "#000"}}>Browse shifts</Text>
 
                 <ScrollView style={styles.shiftsMainContainer}>
                     <ShiftModule hospital={"Admond hospital"} date={"Monday 11 June"} address={"Califonia"} time={"8 - 11 PM"} payrate={"$12/hr"} accept={true}/>

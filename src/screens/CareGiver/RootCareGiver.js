@@ -18,10 +18,10 @@ const CareGiverRoot = ()=>{
                     let title;
 
                     if(route.name === 'Dashboard'){
-                        iconName = 'tv';
+                        iconName = 'heart';
                         title = "Dashboard";
                     }else if(route.name === "Profile"){
-                        iconName = 'person';
+                        iconName = 'user';
                         title = "Profile"
                     }else if(route.name === "Browse") {
                         iconName = "search";

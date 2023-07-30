@@ -1,7 +1,8 @@
 // src/components/TabBarIcon.js
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome'; // You can use any icon library of your choice
+// import Icon from 'react-native-vector-icons/FontAwesome'; // You can use any icon library of your choice
+import Icon from "react-native-vector-icons/FontAwesome"
 
 const TabBarIcon = ({ focused, iconName}) => {
   return (

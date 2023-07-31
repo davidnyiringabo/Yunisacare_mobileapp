@@ -34,7 +34,7 @@ const Post = ({navigation})=>{
                 <View style={{display: "flex", flexDirection: "row", alignItems: "center", gap: 5}}>
                     <TextInput  placeholderTextColor="#ccc" placeholder="8 AM" style={[styles.textInput, {width: (width - 120 ) / 2}]}/>
                     <Text style={[styles.formLabel, {marginLeft: 0}]}>TO</Text>
-                    <TextInput  placeholderTextColor="#ccc" placeholder="8 PM" style={[styles.textInput, {width: (width - 120 ) / 2}]}/>
+                    <TextInput  placeholderTextColor="#ccc" placeholder="8 PM" style={[styles.textInput, {width: (width - 120 ) / 2}]} required/>
                 </View>
             </View>
 
